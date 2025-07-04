@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "-MCU")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-MCU.kicad_sym")(options "")(descr ""))
+  (lib (name "-LDO")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-LDO.kicad_sym")(options "")(descr ""))
+  (lib (name "-Connector-USB-C")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-Connector-USB-C.kicad_sym")(options "")(descr ""))
+  (lib (name "-C-Ceramic-0603")(type "KiCad")(uri "${KIPRJMOD}/Project-Libraries/Symbols/-C-Ceramic-0603.kicad_sym")(options "")(descr ""))
+)
