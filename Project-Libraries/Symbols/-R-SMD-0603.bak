@@ -67,6 +67,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Power Rating" "100mW"
@@ -76,6 +77,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Case/Package" "0603"
@@ -85,6 +87,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/26547-0603WAF1002T5E/C25804"

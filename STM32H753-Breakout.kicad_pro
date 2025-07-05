@@ -623,11 +623,19 @@
     ],
     [
       "51a319f7-60bd-4ed7-8f29-7f818f1fe04a",
-      "MCU"
+      "MCU-Root"
     ],
     [
       "323fa7d3-d16e-40e3-999c-8d4e07dba8bc",
       "Connector"
+    ],
+    [
+      "ce1d2616-0dba-4e93-82b7-88367a0e8e05",
+      "MCU-IO"
+    ],
+    [
+      "e1f1d653-0481-4c65-8c08-428924fd21d2",
+      "MCU-Power"
     ]
   ],
   "text_variables": {}
