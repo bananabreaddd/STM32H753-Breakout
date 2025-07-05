@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "337eea2a-eaf9-4d22-a8a8-1b156f77ca0f")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "-C-Ceramic-0603:C-0603-1uF-10%-25V-X5R"
 			(pin_numbers
@@ -779,26 +779,26 @@
 		(uuid "514f9712-5f4d-4d54-9797-edbc4110ba34")
 	)
 	(junction
-		(at 133.35 110.49)
+		(at 198.12 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "069c0584-851b-405e-ae5e-00ee912fedae")
 	)
 	(junction
-		(at 160.02 99.06)
+		(at 224.79 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c5fb794-dab8-485c-9932-e0ee366ce124")
 	)
 	(junction
-		(at 133.35 99.06)
+		(at 198.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d49f35fd-13ea-4eeb-aea2-0ccb2f74a930")
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 167.64 99.06)
+			(xy 224.79 144.78) (xy 232.41 144.78)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +808,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 99.06) (xy 160.02 99.06)
+			(xy 220.98 144.78) (xy 224.79 144.78)
 		)
 		(stroke
 			(width 0)
@@ -818,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 106.68) (xy 133.35 110.49)
+			(xy 198.12 152.4) (xy 198.12 156.21)
 		)
 		(stroke
 			(width 0)
@@ -828,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 133.35 99.06)
+			(xy 190.5 144.78) (xy 198.12 144.78)
 		)
 		(stroke
 			(width 0)
@@ -838,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 137.16 110.49)
+			(xy 198.12 156.21) (xy 201.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +848,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 160.02 110.49)
+			(xy 224.79 152.4) (xy 224.79 156.21)
 		)
 		(stroke
 			(width 0)
@@ -858,7 +858,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 137.16 99.06)
+			(xy 198.12 144.78) (xy 201.93 144.78)
 		)
 		(stroke
 			(width 0)
@@ -868,7 +868,7 @@
 	)
 	(hierarchical_label "5V-USB"
 		(shape input)
-		(at 125.73 99.06 180)
+		(at 190.5 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -879,7 +879,7 @@
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
-		(at 167.64 99.06 0)
+		(at 232.41 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -890,7 +890,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 160.02 110.49 0)
+		(at 224.79 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -898,7 +898,7 @@
 		(dnp no)
 		(uuid "61ea4c6a-d398-493d-9f4b-5fa3d49646d1")
 		(property "Reference" "#PWR01"
-			(at 160.02 116.84 0)
+			(at 224.79 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 114.935 0)
+			(at 224.79 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 110.49 0)
+			(at 224.79 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 110.49 0)
+			(at 224.79 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 110.49 0)
+			(at 224.79 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +955,7 @@
 	)
 	(symbol
 		(lib_id "-C-Ceramic-0603:C-0603-1uF-10%-25V-X5R")
-		(at 133.35 106.68 90)
+		(at 198.12 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -963,7 +963,7 @@
 		(dnp no)
 		(uuid "743d1b5d-0274-44d9-9ca4-ee7776713d15")
 		(property "Reference" "C1"
-			(at 126.0604 100.746 90)
+			(at 190.8304 146.466 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +972,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 126.0604 103.286 90)
+			(at 190.8304 149.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +981,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 148.59 106.68 0)
+			(at 213.36 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -991,7 +991,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664"
-			(at 152.4 106.68 0)
+			(at 217.17 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1001,7 @@
 			)
 		)
 		(property "Description" "C 0603 1uF 10% 25V X5R"
-			(at 156.21 106.68 0)
+			(at 220.98 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1011,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 126.0604 105.826 90)
+			(at 190.8304 151.546 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 126.0604 108.366 90)
+			(at 190.8304 154.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1029,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 126.0604 110.906 90)
+			(at 190.8304 156.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1038,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 126.0604 113.446 90)
+			(at 190.8304 159.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 175.26 106.68 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1057,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 179.07 106.68 0)
+			(at 243.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "CL10A105KB8NNNC"
-			(at 182.88 106.68 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1077,7 @@
 			)
 		)
 		(property "Digikey P/N" "1276-1860-1-ND"
-			(at 186.69 106.68 0)
+			(at 251.46 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1087,7 @@
 			)
 		)
 		(property "Mouser P/N" "187-CL10A105KB8NNNC"
-			(at 190.5 106.68 0)
+			(at 255.27 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1097,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 194.31 106.68 0)
+			(at 259.08 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,7 +1123,7 @@
 	)
 	(symbol
 		(lib_id "-C-Ceramic-0603:C-0603-2.2uF-10%-16V-X5R")
-		(at 160.02 106.68 90)
+		(at 224.79 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1131,7 +1131,7 @@
 		(dnp no)
 		(uuid "903e4811-7e3e-4aa4-91cc-4aff9cf85daf")
 		(property "Reference" "C2"
-			(at 162.6712 100.8261 90)
+			(at 227.4412 146.5461 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 162.6712 103.3661 90)
+			(at 227.4412 149.0861 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 175.26 106.68 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1159,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707132658442240"
-			(at 179.07 106.68 0)
+			(at 243.84 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,7 +1169,7 @@
 			)
 		)
 		(property "Description" "C 0603 2.2uF 10% 16V X5R"
-			(at 182.88 106.68 0)
+			(at 247.65 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1179,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 162.6712 105.9061 90)
+			(at 227.4412 151.6261 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 162.6712 108.4461 90)
+			(at 227.4412 154.1661 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 162.6712 110.9861 90)
+			(at 227.4412 156.7061 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Case/Package" "0603"
-			(at 162.6712 113.5261 90)
+			(at 227.4412 159.2461 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1215,7 @@
 			)
 		)
 		(property "Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
-			(at 201.93 106.68 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1225,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 205.74 106.68 0)
+			(at 270.51 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "CL10A225KO8NNNC"
-			(at 209.55 106.68 0)
+			(at 274.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1245,7 @@
 			)
 		)
 		(property "Digikey P/N" "1276-1040-1-ND"
-			(at 213.36 106.68 0)
+			(at 278.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1255,7 @@
 			)
 		)
 		(property "Mouser P/N" "187-CL10A225KO8NNNC"
-			(at 217.17 106.68 0)
+			(at 281.94 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1265,7 @@
 			)
 		)
 		(property "LCSC P/N" "C23630"
-			(at 220.98 106.68 0)
+			(at 285.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1291,7 @@
 	)
 	(symbol
 		(lib_id "-LDO:LD39150DT33-R")
-		(at 140.97 114.3 0)
+		(at 205.74 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1300,7 +1300,7 @@
 		(fields_autoplaced yes)
 		(uuid "9358502d-c4f1-48ef-84a0-fc895e6cde31")
 		(property "Reference" "U3"
-			(at 146.685 90.17 0)
+			(at 211.455 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Value" "LD39150DT33-R"
-			(at 146.685 92.71 0)
+			(at 211.455 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1316,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 140.97 125.73 0)
+			(at 205.74 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1326,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/4d/39/ee/07/53/02/48/d0/CD00150601.pdf/files/CD00150601.pdf/jcr:content/translations/en.CD00150601.pdf"
-			(at 140.97 129.54 0)
+			(at 205.74 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1336,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A DPAK"
-			(at 140.97 133.35 0)
+			(at 205.74 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1346,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/LD39150DT33-R/1657323"
-			(at 140.97 137.16 0)
+			(at 205.74 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,7 +1356,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 140.97 140.97 0)
+			(at 205.74 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +1366,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "LD39150DT33-R"
-			(at 140.97 144.78 0)
+			(at 205.74 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Digikey P/N" "497-6448-1-ND"
-			(at 140.97 148.59 0)
+			(at 205.74 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,7 +1386,7 @@
 			)
 		)
 		(property "Mouser P/N" "511-LD39150DT33-R"
-			(at 140.97 152.4 0)
+			(at 205.74 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "LCSC P/N" "C155559"
-			(at 140.97 156.21 0)
+			(at 205.74 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 133.35 110.49 0)
+		(at 198.12 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1433,7 +1433,7 @@
 		(dnp no)
 		(uuid "aaaef74a-4257-4c8d-a36d-ea94dbe6b40c")
 		(property "Reference" "#PWR07"
-			(at 133.35 116.84 0)
+			(at 198.12 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 114.935 0)
+			(at 198.12 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 110.49 0)
+			(at 198.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1459,7 +1459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 110.49 0)
+			(at 198.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1468,7 +1468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 110.49 0)
+			(at 198.12 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

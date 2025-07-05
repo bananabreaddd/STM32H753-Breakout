@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8c56b57b-ef87-451a-85de-c130aa4e34cc")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "-Connector-USB-C:USB4110-GF-A"
 			(exclude_from_sim no)
@@ -651,7 +651,7 @@
 	)
 	(symbol
 		(lib_id "-Connector-USB-C:USB4110-GF-A")
-		(at 140.97 129.54 0)
+		(at 198.12 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -660,7 +660,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffeb10aa-efe5-41d8-88d5-801c64de0acb")
 		(property "Reference" "J2"
-			(at 152.4 82.55 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +668,7 @@
 			)
 		)
 		(property "Value" "USB4110-GF-A"
-			(at 152.4 85.09 0)
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +676,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
-			(at 140.97 140.97 0)
+			(at 198.12 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +686,7 @@
 			)
 		)
 		(property "Datasheet" "https://gct.co/files/specs/usb4110-spec.pdf"
-			(at 140.97 144.78 0)
+			(at 198.12 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +696,7 @@
 			)
 		)
 		(property "Description" "USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle"
-			(at 140.97 148.59 0)
+			(at 198.12 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +706,7 @@
 			)
 		)
 		(property "Link" "https://www.digikey.com/en/products/detail/gct/USB4110-GF-A/10384547"
-			(at 140.97 152.4 0)
+			(at 198.12 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +716,7 @@
 			)
 		)
 		(property "Manufacturer" "GCT"
-			(at 140.97 156.21 0)
+			(at 198.12 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,7 +726,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "USB4110-GF-A"
-			(at 140.97 160.02 0)
+			(at 198.12 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +736,7 @@
 			)
 		)
 		(property "Digikey P/N" "2073-USB4110-GF-A-1-ND"
-			(at 140.97 163.83 0)
+			(at 198.12 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -746,7 +746,7 @@
 			)
 		)
 		(property "Mouser P/N" "640-USB4110-GF-A"
-			(at 140.97 167.64 0)
+			(at 198.12 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -756,7 +756,7 @@
 			)
 		)
 		(property "LCSC P/N" "C5143397"
-			(at 140.97 171.45 0)
+			(at 198.12 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
