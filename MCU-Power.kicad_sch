@@ -4240,6 +4240,52 @@
 		)
 		(uuid "257c1539-e828-45a3-87a0-c05714b1cb52")
 	)
+	(text_box "LAYOUT: Place 100nF caps closer to IC pin than 1uF caps"
+		(exclude_from_sim no)
+		(at 274.32 137.16 0)
+		(size 22.86 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 251 93 84 1)
+		)
+		(fill
+			(type color)
+			(color 248 175 168 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "0d86486f-002c-4831-bff3-bb2f69408f7f")
+	)
+	(text_box "LAYOUT: Keep decoupling capacitors very close to IC pins"
+		(exclude_from_sim no)
+		(at 179.07 137.16 0)
+		(size 26.67 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 251 93 84 1)
+		)
+		(fill
+			(type color)
+			(color 248 175 168 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "3dbd9040-6f73-44b6-9564-124b757845f8")
+	)
 	(junction
 		(at 156.21 129.54)
 		(diameter 0)
