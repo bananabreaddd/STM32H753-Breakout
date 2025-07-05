@@ -253,7 +253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 156.21 64.77 0)
 			(effects
 				(font
@@ -319,7 +319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
 			(at 194.31 64.77 0)
 			(effects
 				(font

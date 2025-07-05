@@ -60,7 +60,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Tolerance" "10%"
 			(at 0 -26.67 0)
 			(effects
 				(font
@@ -69,7 +69,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Tolerance" "10%"
+		(property "Voltage" "25V"
 			(at 0 -30.48 0)
 			(effects
 				(font
@@ -241,7 +241,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2.2uF"
 			(at 0 -11.43 0)
 			(effects
 				(font
@@ -260,7 +260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707132658442240"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -270,7 +270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C 0603 1uF 10% 25V X5R"
+		(property "Description" "C 0603 2.2uF 10% 16V X5R"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -280,7 +280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 0 -26.67 0)
 			(effects
 				(font
@@ -316,7 +316,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Link" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+		(property "Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
 			(at 0 -41.91 0)
 			(effects
 				(font
@@ -336,7 +336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "CL10A105KB8NNNC"
+		(property "Manufacturer P/N" "CL10A225KO8NNNC"
 			(at 0 -49.53 0)
 			(effects
 				(font
@@ -346,7 +346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "1276-1860-1-ND"
+		(property "Digikey P/N" "1276-1040-1-ND"
 			(at 0 -53.34 0)
 			(effects
 				(font
@@ -356,7 +356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser P/N" "187-CL10A105KB8NNNC"
+		(property "Mouser P/N" "187-CL10A225KO8NNNC"
 			(at 0 -57.15 0)
 			(effects
 				(font
@@ -366,7 +366,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC P/N" "C15849"
+		(property "LCSC P/N" "C23630"
 			(at 0 -60.96 0)
 			(effects
 				(font

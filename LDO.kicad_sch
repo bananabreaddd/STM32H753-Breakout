@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "25V"
+			(property "Tolerance" "10%"
 				(at 0 -26.67 0)
 				(effects
 					(font
@@ -72,7 +72,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Voltage" "25V"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -283,7 +283,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "16V"
+			(property "Tolerance" "10%"
 				(at 0 -26.67 0)
 				(effects
 					(font
@@ -292,7 +292,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Tolerance" "10%"
+			(property "Voltage" "16V"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -778,6 +778,29 @@
 		)
 		(uuid "514f9712-5f4d-4d54-9797-edbc4110ba34")
 	)
+	(text_box "come back and add more decoupling capacitors here"
+		(exclude_from_sim no)
+		(at 198.12 125.73 0)
+		(size 30.48 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 251 93 84 1)
+		)
+		(fill
+			(type color)
+			(color 248 175 168 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 70 70 70 1)
+			)
+			(justify left top)
+		)
+		(uuid "6df34d19-f377-4672-87b7-537271f8d452")
+	)
 	(junction
 		(at 198.12 156.21)
 		(diameter 0)
@@ -788,23 +811,13 @@
 		(at 224.79 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c5fb794-dab8-485c-9932-e0ee366ce124")
+		(uuid "9965b368-74fc-45cc-a098-80e4dd6f9ee9")
 	)
 	(junction
 		(at 198.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d49f35fd-13ea-4eeb-aea2-0ccb2f74a930")
-	)
-	(wire
-		(pts
-			(xy 224.79 144.78) (xy 232.41 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ab39a99-02de-4e9e-b2fd-4a616a4b8d39")
+		(uuid "a1850e66-953b-4b9d-a91e-b9905d85557f")
 	)
 	(wire
 		(pts
@@ -814,7 +827,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "15f53392-0a2d-4146-9579-63e964c6457b")
+		(uuid "0ab39a99-02de-4e9e-b2fd-4a616a4b8d39")
+	)
+	(wire
+		(pts
+			(xy 224.79 144.78) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb48480-ea14-4cd3-8967-77bbcf55eb36")
 	)
 	(wire
 		(pts
@@ -864,7 +887,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "de53362c-70da-4c07-b2ba-56a046d19ed6")
+		(uuid "a9214224-355e-49f3-b98a-de63396226d4")
 	)
 	(hierarchical_label "5V-USB"
 		(shape input)
@@ -923,7 +946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -932,7 +955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 224.79 156.21 0)
 			(effects
 				(font
@@ -948,342 +971,6 @@
 			(project "STM32H753-Breakout"
 				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-C-Ceramic-0603:C-0603-1uF-10%-25V-X5R")
-		(at 198.12 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "743d1b5d-0274-44d9-9ca4-ee7776713d15")
-		(property "Reference" "C1"
-			(at 190.8304 146.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 190.8304 149.006 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 213.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664"
-			(at 217.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "C 0603 1uF 10% 25V X5R"
-			(at 220.98 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "25V"
-			(at 190.8304 151.546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 190.8304 154.086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 190.8304 156.626 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 190.8304 159.166 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
-			(at 240.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 243.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "CL10A105KB8NNNC"
-			(at 247.65 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "1276-1860-1-ND"
-			(at 251.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "187-CL10A105KB8NNNC"
-			(at 255.27 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C15849"
-			(at 259.08 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "408b7201-8af4-43c1-ab71-a3b679c698ef")
-		)
-		(pin "2"
-			(uuid "4f0b1ef4-2efa-45b9-9774-ec6fa9f76d63")
-		)
-		(instances
-			(project ""
-				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "-C-Ceramic-0603:C-0603-2.2uF-10%-16V-X5R")
-		(at 224.79 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "903e4811-7e3e-4aa4-91cc-4aff9cf85daf")
-		(property "Reference" "C2"
-			(at 227.4412 146.5461 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 227.4412 149.0861 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 240.03 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707132658442240"
-			(at 243.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "C 0603 2.2uF 10% 16V X5R"
-			(at 247.65 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 227.4412 151.6261 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 227.4412 154.1661 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 227.4412 156.7061 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Case/Package" "0603"
-			(at 227.4412 159.2461 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 270.51 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer P/N" "CL10A225KO8NNNC"
-			(at 274.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "1276-1040-1-ND"
-			(at 278.13 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "187-CL10A225KO8NNNC"
-			(at 281.94 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C23630"
-			(at 285.75 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8d7919eb-c0aa-49e2-b6d3-dce42fc71fdf")
-		)
-		(pin "1"
-			(uuid "f09c540e-f891-48cd-8fc3-4bc7a78ba7a5")
-		)
-		(instances
-			(project ""
-				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -1467,7 +1154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
 			(at 198.12 156.21 0)
 			(effects
 				(font
@@ -1483,6 +1170,342 @@
 			(project "STM32H753-Breakout"
 				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-C-Ceramic-0603:C-0603-1uF-10%-25V-X5R")
+		(at 198.12 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2ebcdfe-12b0-48e3-8fd2-a8817c8a3596")
+		(property "Reference" "C1"
+			(at 190.8679 146.4176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 190.8679 148.9576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 213.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556213788459761664"
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "C 0603 1uF 10% 25V X5R"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 190.8679 151.4976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 190.8679 154.0376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 190.8679 156.5776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 190.8679 159.1176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "CL10A105KB8NNNC"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "1276-1860-1-ND"
+			(at 251.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "187-CL10A105KB8NNNC"
+			(at 255.27 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C15849"
+			(at 259.08 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb5bfb48-a0be-4482-900d-db3709e3e1da")
+		)
+		(pin "1"
+			(uuid "192985fc-feab-4f77-aa74-bf7f457ebf71")
+		)
+		(instances
+			(project ""
+				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "-C-Ceramic-0603:C-0603-2.2uF-10%-16V-X5R")
+		(at 224.79 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f019ee6d-5e56-443b-b144-e2d2f03d7a12")
+		(property "Reference" "C2"
+			(at 227.3397 146.5386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 227.3397 149.0786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 240.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707132658442240"
+			(at 243.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "C 0603 2.2uF 10% 16V X5R"
+			(at 247.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 227.3397 151.6186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 227.3397 154.1586 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 227.3397 156.6986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Case/Package" "0603"
+			(at 227.3397 159.2386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Link" "https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630"
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "CL10A225KO8NNNC"
+			(at 274.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "1276-1040-1-ND"
+			(at 278.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "187-CL10A225KO8NNNC"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C23630"
+			(at 285.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6284bf52-0fc0-426d-b3ab-4adf3fd0ceea")
+		)
+		(pin "2"
+			(uuid "c77adf83-5c42-4c6b-b3dc-2cc90cf2463a")
+		)
+		(instances
+			(project ""
+				(path "/7435cb13-ab72-49f2-b9ed-36f4c9063e72/b91ef8ae-52c5-4017-97aa-123a92ab6338"
+					(reference "C2")
 					(unit 1)
 				)
 			)
